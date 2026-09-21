@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Конфиденциальность — Питание</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav><a href="./">Главная</a><a href="privacy.html">Конфиденциальность</a><a href="support.html">Поддержка</a><a href="health.html">О здоровье</a></nav>
+  <div class="lang"><a href="#ru">Русский</a><a href="#en">English</a></div>
+
+  <section id="ru">
+    <h1>Политика конфиденциальности</h1>
+    <p class="muted">Действует с 21 сентября 2026 года</p>
+
+    <h2>Коротко</h2>
+    <div class="card">
+      <ul>
+        <li>Дневник хранится <b>на твоём телефоне</b>. Аккаунта и регистрации нет.</li>
+        <li>Фото еды отправляется на распознавание и <b>не сохраняется</b> на сервере.</li>
+        <li>Рекламы, трекеров и продажи данных <b>нет</b>.</li>
+      </ul>
+    </div>
+
+    <h2>Что хранится на телефоне</h2>
+    <p>Профили (имя, возраст, рост, вес, уровень активности, пищевые ограничения), записи о еде, воде и весе, справочник продуктов, настройки напоминаний. Эти данные не покидают телефон, пока ты сам не включишь резервную копию.</p>
+
+    <h2>Что уходит на сервер и зачем</h2>
+    <h3>Распознавание еды по фото</h3>
+    <p>Фото передаётся на наш сервер, а с него — сервису искусственного интеллекта Anthropic (модели Claude), который определяет блюда и их состав. Вместе с фото передаются названия продуктов из твоего справочника и недавние приёмы пищи, чтобы не посчитать одно блюдо дважды. Фото на нашем сервере не сохраняется. Anthropic не использует данные, полученные через API, для обучения своих моделей.</p>
+    <h3>Служебные данные</h3>
+    <p>Случайный номер устройства, который создаёт приложение, версия приложения, число и стоимость распознаваний. Это нужно, чтобы соблюдать дневные лимиты. Номер устройства не связан с твоим именем, телефоном или Apple ID.</p>
+    <h3>Резервная копия — только если ты её включил</h3>
+    <p>Если нажмёшь «Сохранить копию», дневник сохраняется на сервере под случайным кодом. По этому коду его можно перенести на другой телефон. Без кода копию не найти.</p>
+    <h3>Поиск по штрихкоду</h3>
+    <p>Номер штрихкода отправляется в открытую базу Open Food Facts, чтобы найти состав продукта. Больше никаких данных туда не уходит.</p>
+    <h3>Поиск товара на сайте магазина</h3>
+    <p>Если на фото распознан магазинный товар, его название отправляется на наш сервер, который ищет состав на сайте магазина. Передаётся только название товара.</p>
+
+    <h2>Где находится сервер</h2>
+    <p>Сервер работает на платформе Supabase в Евросоюзе (Ирландия). Распознавание выполняет Anthropic (США).</p>
+
+    <h2>Как удалить данные</h2>
+    <p>Данные на телефоне удаляются вместе с профилем в настройках или вместе с приложением. Чтобы удалить резервную копию с сервера, напиши в <a href="support.html">поддержку</a> и укажи код копии — удалим в течение 30 дней.</p>
+
+    <h2>Дети</h2>
+    <p>Детский профиль ведёт взрослый на своём телефоне. Для детей приложение не ставит целей по весу и не предлагает дефицит калорий.</p>
+
+    <h2>Изменения</h2>
+    <p>Если политика изменится, новая версия появится на этой странице с новой датой.</p>
+  </section>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <h1>Privacy policy</h1>
+    <p class="muted">Effective 21 September 2026</p>
+
+    <h2>In short</h2>
+    <div class="card">
+      <ul>
+        <li>Your diary is stored <b>on your phone</b>. There is no account and no sign-up.</li>
+        <li>Food photos are sent for recognition and are <b>not stored</b> on the server.</li>
+        <li><b>No</b> ads, no trackers, no selling of data.</li>
+      </ul>
+    </div>
+
+    <h2>What stays on your phone</h2>
+    <p>Profiles (name, age, height, weight, activity level, food restrictions), food, water and weight entries, your food list and reminder settings. This data does not leave your phone unless you turn on a backup.</p>
+
+    <h2>What is sent to the server and why</h2>
+    <h3>Photo recognition</h3>
+    <p>The photo is sent to our server and from there to Anthropic's AI service (Claude models), which identifies the dishes and their nutrition. Names of foods from your list and your recent meals are sent along with it, so the same dish is not counted twice. The photo is not stored on our server. Anthropic does not use data received through its API to train its models.</p>
+    <h3>Technical data</h3>
+    <p>A random device number created by the app, the app version, and the number and cost of recognitions. This is needed to apply daily limits. The device number is not linked to your name, phone number or Apple ID.</p>
+    <h3>Backup — only if you turn it on</h3>
+    <p>If you tap “Save a backup”, your diary is stored on the server under a random code. With that code you can move it to another phone. Without the code the backup cannot be found.</p>
+    <h3>Barcode lookup</h3>
+    <p>The barcode number is sent to the open Open Food Facts database to find the product's nutrition. No other data is sent there.</p>
+    <h3>Shop product lookup</h3>
+    <p>If a packaged shop product is recognised in a photo, its name is sent to our server, which looks up its nutrition on the shop's website. Only the product name is sent.</p>
+
+    <h2>Where the server is</h2>
+    <p>The server runs on Supabase in the European Union (Ireland). Recognition is done by Anthropic (USA).</p>
+
+    <h2>Deleting your data</h2>
+    <p>Data on the phone is deleted together with a profile in Settings, or with the app. To delete a backup from the server, contact <a href="support.html#en">support</a> with the backup code — it will be deleted within 30 days.</p>
+
+    <h2>Children</h2>
+    <p>A child profile is managed by an adult on their own phone. For children the app sets no weight goals and never suggests a calorie deficit.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will appear on this page with a new date.</p>
+  </section>
+
+  <footer class="muted">© 2026</footer>
+</main>
+</body>
+</html>
